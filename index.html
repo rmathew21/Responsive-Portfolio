@@ -1,56 +1,381 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About | Robin Mathew</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/styler.css">
+    <link rel="stylesheet" href="assets/css/fixed.css">
 </head>
 
-<body>
-    
-  <header id="masthead">
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-        <a class="navbar-brand" href="./index.html">Robin Mathew</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+<body data-spy="scroll" data-target="#navbarResponsive">
+    <!-- https://www.youtube.com/watch?v=V_lAhqLXT9A&t=303s -->
+    <!-- Start Home Section -->
+    <div id="home">
+
+    <!-- Navigation -->
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Full Stack Developer</a>
+        <!-- Photo by Christopher Gower on Unsplash -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
             <span class="navbar-toggler-icon"></span>
-          </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="./index.html">About<span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
-          <a class="nav-item nav-link" href="./contact.html">Contact</a>
-        </div>
-      </div>
-    </nav>
-  </div>
-  </header>
-   
+        </button>
 
-    <div id="main-container" class="container">
-      <section class="main-section">
-        <h1 class="text-center">About Me</h1>
-
-        <img src="./assets/images/Robin Portraits Houston (6 of 8).jpg" class="img-fluid" alt="Responsive image">
-
-        <p>Hi there! My name is Robin Mathew and I was born and raised in the great city of Houston! I’ve had the pleasure of living in Texas my entire life, while splitting time in San Antonio and Austin during the past 10 years. Home is definitely where my heart is and I’m glad to be back in Houston. I’m a huge Houston sports fan, and I love playing basketball as often as I can.</p>
-
-        <p>I’ve been working with Apple’s Developer Program Support team for the past 8 years. It’s been a great ride, and I get to  speak with developers regarding their apps on a daily basis.  I’m looking for growth in my career and feel very fortunate to attend UT’s Coding Bootcamp here in Houston. I’m excited to learn coding and look forward to this great opportunity I have in front of me.</p>
-
-      </section>
-
-    </div> 
-
-    <footer>
-        <div class="container">
-            Copyright &COPY;
-        </div>
-</footer>
-
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#course">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
     
-</body>
-  
-</html>
+    </nav>
+    <!-- End Navigation -->
+
+    <!-- Start Landing Page Section -->
+	<div class="landing"> 
+        <div class="home-wrap">
+            <div class="home-inner">
+            </div>
+        </div>
+    </div>
+    
+    <div class="caption text-center">
+        <img src="assets/images/Robin Portraits Houston (6 of 8).jpg">
+        <h2>Robin Mathew</h2>
+        
+        <a class="btn btn-outline-light btn-lg" href="#course"></a>
+    </div>
+    <!-- End Landing Page Section -->
+    </div>
+    <!-- End Home Section -->
+
+    <!-- Start Course Section -->
+	<div id="course" class="offset">
+
+        <div class="col-12 narrow text-center">
+            <h1>Robin Mathew</h1>
+            <p class="lead">Hi there! My name is Robin Mathew and I was born and raised in the great city of Houston! 
+            I’ve had the pleasure of living in Texas my entire life, while splitting time in San Antonio 
+            and Austin during the past 10 years. Home is definitely where my heart is and I’m glad to be 
+            back in Houston. I’m a huge Houston sports fan, and I love playing basketball as often as I can.</p>
+            <a class="btn btn-secondary btn-md" href="#" target="_blank">Resume</a>
+        </div>
+    </div>
+    <!-- End Course Section -->
+
+    <!-- Start Features Section -->
+	<div id="features" class="offset">
+
+        <!-- Start Jumbotron -->
+        <div class="jumbotron">
+            <div class="narrow text-center">
+                <div class="col-12">
+                    <h3 class="heading">Portfolio</h3>
+                    <div class="heading-underline"></div>
+                </div>
+    
+            <!--div class="row text-center">
+                <div class="col-md-4">
+                    <div class="feature">
+                        <i class="fas fa-play-circle fa-4x" data-fa-transform="
+                        shrink-3 up-5"></i>
+                        <h3>Custom Animation</h3>
+                        <p>Animate.css and Waypoints.js allow for smooth animations
+                        scrolling down the site.</p>
+                    </div>
+                </div-->
+
+                <div class="row">
+                    <!-- <div class="col-md-4"> -->
+                        <div class="feature"> 
+                <main class="grid ml-3 mr-3 mb-3" id="grid2">
+                <img src="assets/images/office trivia game.png" alt="1" class="img-thumbnail" data-toggle="modal" data-target="#triviaGame">
+                <div class="modal fade" id="triviaGame" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">The Office Trivia Game</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <!-- your project img && your project link-->
+                            <div class="modal-body">
+                                <img src="assets/images/office trivia game.png" alt="trivia">
+                                <a href="https://rmathew21.github.io/TriviaGame/" class="card-link" target="_blank">View Project</a>
+                                <a href="https://github.com/rmathew21/TriviaGame" class="card-link2" target="_blank">View Code</a>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+    
+            <!--div class="col-md-4">
+                <div class="feature">
+                    <i class="fas fa-sliders-h fa-4x" data-fa-transform="
+                    shrink-4.5 up-4.5"></i>
+                    <h3>Content Slider</h3>
+                    <p>Owl.Carousel.js makes navigating content sliders seamless
+                    with it's content carousel navigation.</p>
+                </div>
+            </div-->
+            
+            <img src="assets/images/bullet train scheduler.png" alt="train" class="img-thumbnail" data-toggle="modal" data-target="#trivia-game">
+                <!-- make modal ID unique to you -->
+                <!-- Modal -->
+                <div class="modal fade" id="trivia-game" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Transportation Scheduler</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <!-- your project img && your project link-->
+                            <div class="modal-body">
+                                <img src="assets/images/bullet train scheduler.png" alt="bullet">
+                                    <a href="https://rmathew21.github.io/transportationScheduler/" class="card-link" target="_blank">View Project</a>
+                                    <a href="https://github.com/rmathew21/transportationScheduler" class="card-link2" target="_blank">View Code</a>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            
+           
+    
+            <!--div class="col-md-4">
+                <div class="feature">
+                    <i class="fab fa-wpforms fa-4x" data-fa-transform="
+                    shrink-4 up-5"></i>
+                    <h3>Content Form</h3>
+                    <p>The Bootstrap HTML form will send directly to your email
+                    address using PHPMailer.php.</p>
+                </div>
+            </div-->
+            
+            <img src="assets/images/giphy1.png" alt="giphy" class="img-thumbnail" data-toggle="modal" data-target="#giphy-game">
+            <!-- make modal ID unique to you -->
+            <!-- Modal -->
+                <div class="modal fade" id="giphy-game" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Giphy Show - TV edition</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <!-- your project img && your project link-->
+                            <div class="modal-body">
+                                <img src="assets/images/giphy1.png" alt="gif">
+                                    <a href="https://rmathew21.github.io/giphy-tv-shows/" class="card-link" target="_blank">View Project</a>
+                                    <a href="https://github.com/rmathew21/giphy-tv-shows" class="card-link2" target="_blank">View Code</a>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+
+                
+    
+            </div> <!-- End Row -->
+        </div> <!-- End Narrow -->
+    </div> <!-- End Jumbotron -->
+</div>
+    <!-- End Features Section -->
+
+    <!-- Start Resources Section -->
+	<!--div id="resources" class="offset">
+            <div class="fixed-background">
+                <div class="row dark text-center">
+                    <div class="col-12">
+                        <h3 class="heading">Built With Care</h3>
+                        <div class="heading-underline"></div>
+                    </div>
+    
+                    <div class="col-md-4">
+                        <h3>HTML 5</h3>
+                        <div class="feature">
+                            <i class="fas fa-code fa-3x"></i>
+                        </div>
+                        <p class="lead">Built with the latest, HTML 5</p>
+                    </div>
+    
+                    <div class="col-md-4">
+                        <h3>BOOTSTRAP 4</h3>
+                        <div class="feature">
+                            <i class="fas fa-bold fa-3x"></i>
+                        </div>
+                        <p class="lead">Built with the latest, BOOTSTRAP 4</p>
+                    </div>
+    
+                    <div class="col-md-4">
+                        <h3>CSS 3</h3>
+                        <div class="feature">
+                            <i class="fab fa-css3 fa-3x"></i>
+                        </div>
+                        <p class="lead">Built with the latest, CSS 3</p>
+                    </div>
+    
+    
+                </div--> <!-- End Row Dark -->
+        
+                    <div class="fixed-wrap">
+                        <div class="fixed">
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- End Fixed Background -->
+    
+        </div>
+        <!-- End Resources Section -->
+    
+        <!-- Start Clients Section -->
+        <div id="clients" class="offset">
+    
+            <!-- Start Jumbotron -->
+            <div class="jumbotron">
+                    <div class="col-12 text-center">
+                        <h3 class="heading">Projects</h3>
+                        <div class="heading-underline"></div>
+                    </div>
+
+                    <img src="./assets/images/discoverTech.png" alt="project" class="img-thumbnail" data-toggle="modal" data-target="#discoverTech">
+                                    <!-- make modal ID unique to you -->
+                                <!-- Modal -->
+                                      <div class="modal fade" id="discoverTech" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                          <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                              <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">discoverTECH</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                  <span aria-hidden="true">&times;</span>
+                                                </button>
+                                              </div>
+                                              <!-- your project img && your project link-->
+                                              <div class="modal-body">
+                                                  <img src="./assets/images/discoverTech.png" alt="dt">
+                                                  <a href="https://rmathew21.github.io/project1/" class="card-link" target="_blank">View Project</a>
+                                                  <a href="https://github.com/rmathew21/project1" class="card-link2" target="_blank">View Code</a>
+                                              </div>
+                                              <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+    
+                    <!--div class="row">
+    
+                        <div class="col-md-6 clients">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img src="img/client1.png">
+                                </div>
+                                <div class="col-md-8">
+                                    <blockquote>
+                                        <i class="fas fa-quote-left"></i>
+                                        I see Nuno support as more of a partner to my company
+                                        than a resource. I can pick up the phone and talk to 
+                                        anyone at any time and the way that they interact with
+                                        us as a business makes it really simple.
+                                        <hr class="clients-hr">
+                                        <cite>&#8212; Eric, Small Business Owner</cite>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-6 clients">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="img/client2.png">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <blockquote>
+                                            <i class="fas fa-quote-left"></i>
+                                            The great thing about Nuno is it's not just a
+                                            design, it's a responsive Bootstrap theme with
+                                            animation. Nuno's layout is seamless the smooth
+                                            parallax scrolling and a pop-up portfolio section
+                                            for my images.
+                                            <hr class="clients-hr">
+                                            <cite>&#8212; Rachel, Professional Photographer</cite>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                    </div--> <!-- End Row -->
+            <!--/div> End Jumbotron 
+    
+            <div class="col-12 narrow text-center">
+                <p class="lead">Want to learn more about developing Bootstrap Themes?
+                </p>
+                <a class="btn btn-secondary btn-md" href="#" target="_blank">Bootstrap Course</a>
+            </div>
+        </div-->
+        <!-- End Clients Section -->
+    
+        <!-- Start Contact Section -->
+        <div id="contact" class="offset">
+    
+            <footer>
+                <div class="row justify-content-center">
+    
+                    <div class="col-md-5 text-center">
+                        <!--img src="img/nuno.png"-->
+                        <!--p>At our core is a collection of design and development solutions
+                        that represent everything your business needs to compete in the
+                        modern marketplace.</p-->
+                        <strong>Contact Info</strong>
+                        <p>(832) 630-6815<br>Robmathew21@gmail.com</p>
+                        <a href="" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                        <a href="" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                        <a href="" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+    
+                    <hr class="socket">
+                    &copy; Robin Mathew.
+    
+                </div>
+            </footer>
+    
+        </div>
+        <!-- End Contact Section -->
+    
+    
+    <!--- Script Source Files -->
+    <!-- <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script> -->
+    <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+    <!--- End of Script Source Files -->
+    
+    </body>
+    </html>
